@@ -20,7 +20,7 @@ class LoginWindow(QDialog):
         lbl = QLabel(self)
         lbl.setPixmap(pixmap)
 
-        # Start session button
+        # "Start session" button
         btn = QPushButton("Start \n session", self)
         btn.clicked.connect(self.init_main_UI)
         btn.resize(70, 70)
@@ -35,7 +35,7 @@ class LoginWindow(QDialog):
         btn.move(380, 370)
         btn.setStyleSheet('QPushButton {background-color: #ffffff; color: #2E2E2E; font: bold 14px; border-radius: 5px;}')
 
-        # Refresh button
+        # "Refresh" button
         refresh_btn = QPushButton("R", self)
         refresh_btn.clicked.connect(self.reload_user_list)
         refresh_btn.resize(30, 30)
