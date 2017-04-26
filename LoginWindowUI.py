@@ -28,7 +28,7 @@ class LoginWindow(QDialog):
         btn.setStyleSheet(
             'QPushButton {background-color: #ffffff; color: #2E2E2E; font: bold 14px; border-radius: 5px;}')
 
-        # Add new button
+        # "Add new" button
         btn = QPushButton("Add new", self)
         btn.clicked.connect(self.new_user)
         btn.resize(80, 30)
