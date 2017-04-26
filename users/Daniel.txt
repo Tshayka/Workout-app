@@ -1,0 +1,2 @@
+Name of the user is daniel,
+User weight is 20 kg
